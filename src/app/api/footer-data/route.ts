@@ -2,8 +2,8 @@ import { NextResponse } from "next/server";
 
 const footerData = {
     brand: {
-        name: "Awake",
-        tagline: "Empowering businesses with innovative solutions. Let's create something amazing together.",
+        name: "Nasmak Labs",
+        tagline: "we are providing the best services for your business",
         socialLinks: [
             {
                 icon: "/images/home/footerSocialIcon/twitter.svg",
@@ -52,7 +52,7 @@ const footerData = {
         email: "hello@awake.agency",
         phone: "0105 192 3556"
     },
-    copyright: "©2025 Awake. All Rights Reserved"
+    copyright: `©${new Date().getFullYear()} Nasmak Labs. All rights reserved.`,
 };
 
 export const GET = async () => {

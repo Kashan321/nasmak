@@ -12,7 +12,7 @@ import Subscription from "./components/home/subscription";
 import WebResult from "./components/home/web-result";
 
 export const metadata: Metadata = {
-    title: "Home | Awake Agency",
+    title: "Home | Nasmak Labs",
 };
 
 
