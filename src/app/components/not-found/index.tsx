@@ -5,7 +5,7 @@ import React from 'react'
 const NotFound = () => {
   return (
     <section>
-      <div className='relative w-full pt-44 2xl:pb-20 pb-10 before:absolute before:w-full before:h-full before:bg-linear-to-r before:from-blue_gradient before:via-white before:to-yellow_gradient before:rounded-full before:top-24 before:blur-3xl before:-z-10 dark:before:from-dark_blue_gradient dark:before:via-black dark:before:to-dark_yellow_gradient dark:before:rounded-full dark:before:blur-3xl dark:before:-z-10'>
+      <div className="relative w-full pt-44 2xl:pb-20 pb-10 before:absolute before:w-full before:h-full before:bg-linear-to-r before:from-[#b2d8c5] before:via-[#e0f2e9] before:to-[#c2ede1] before:rounded-full before:top-24 before:blur-3xl before:opacity-20 before:-z-10 dark:before:from-[#4d6659] dark:before:via-[#009444] dark:before:to-[#38f9d7] dark:before:rounded-full dark:before:blur-3xl dark:before:opacity-20 dark:before:-z-10">
         <div className='container'>
           <div className='flex flex-col items-center gap-8'>
             <div>

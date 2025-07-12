@@ -33,7 +33,7 @@ function CustomerStories() {
                     </div>
                   </div>
                 </div>
-                <div className='flex flex-col justify-between gap-36 xl:max-w-25 bg-pale-yellow rounded-2xl p-8'>
+                <div className='flex flex-col justify-between gap-36 xl:max-w-25 bg-[#009444] rounded-2xl p-8'>
                   <div>
                     <span className='uppercase text-sm font-medium text-dark_black/60'>
                       Facts & numbers
