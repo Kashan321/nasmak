@@ -1,7 +1,8 @@
 import { Metadata } from "next";
 import Link from "next/link";
+
 export const metadata: Metadata = {
-    title: "Privacy Policy | Awake Agency",
+    title: "Privacy Policy | Nasmak Labs",
 };
 
 export default function Page() {
@@ -15,41 +16,57 @@ export default function Page() {
                         </h1>
                         <div className="bg-white dark:bg-dark_black p-8 rounded-2xl">
                             <p className="text-opacity-60">
-                                This Privacy Statement explains how Personal Information about our (potential) customers and other individuals using our services is collected, used and disclosed by Getnextjstemplates and its respective affiliates ("us", "we", "our" or "Getnextjstemplates"). This Privacy Statement describes our privacy practices in relation to the use of our websites (including any customer portal or interactive customer website) (
-                                <Link href="https://getnextjstemplates.com/" className="text-dark_black">https://getnextjstemplates.com/</Link>), our software (Getnextjstemplates), services, solutions, tools, and related applications, services, and programs, including research and marketing activities, offered by us (the "Services"), as well as your choices regarding use, access, storage and correction of Personal Information. It also describes how we collect, use, disclose and otherwise process Personal Information collected in relation to our Services and otherwise in the course of our business activities.</p>
+                                This Privacy Statement explains how personal information about our users, clients, and visitors is collected, used, and disclosed by <strong>Nasmak Labs</strong> ("we", "our", or "us"). It outlines our practices regarding data collected through our website (
+                                <Link href="https://nasmaklabs.com" className="text-dark_black">https://nasmaklabs.com</Link>), services, and interactions related to our software development and technology solutions.
+                            </p>
 
-                            <p className="text-opacity-60">By signing up to our Services and by agreeing to our General Terms and Conditions required to use certain of our Services, you agree to the collection, usage, storage and disclosure of information described in this Privacy Statement.</p>
+                            <p className="text-opacity-60">
+                                By using our services or interacting with our website, you agree to the collection, use, and disclosure of your information as described in this Privacy Policy.
+                            </p>
 
-                            <p className="text-opacity-60">Our Services may contain links to other websites or services; and information practices and/or the content of such other websites or services shall be governed by the privacy statements of such other websites or services.</p>
+                            <p className="text-opacity-60">
+                                Our website may contain links to third-party services. We are not responsible for the privacy practices or content of such services and encourage you to review their privacy policies.
+                            </p>
 
-                            <p className="text-opacity-60">We may change this Privacy Statement from time to time. If we make changes, we will notify you by revising the date at the top of the statement and providing you with additional notifications of such (such as adding a statement to our homepage, in our Getnextjstemplates Preview app or sending you a notification). We encourage you to review the Privacy Statement whenever you use our Services to stay informed about our information practices and the ways you can help protect your privacy.</p>
+                            <p className="text-opacity-60">
+                                This policy may be updated periodically. Significant changes will be communicated through updates to this page and may be accompanied by direct notifications. We encourage you to review our Privacy Policy regularly to stay informed.
+                            </p>
 
                             <div className="my-6">
-                                <h4 className="font-semibold">Personal information collection </h4>
+                                <h4 className="font-semibold">Information We Collect</h4>
                                 <p className="mt-6">
-                                    While using our Services, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you. For example, we collect information when you create an account, request customer support or otherwise communicate with us. The types of information we may collect include basic user information (such as your name, email address, social media avatar, telephone number and photograph), company information and any other information you choose to provide.
+                                    We may collect personally identifiable information when you fill out forms, contact us, or use our services. This includes your name, email address, phone number, company name, and any other details you provide.
                                 </p>
-
                                 <p className="mt-6 text-opacity-60">
-                                    We will not collect financial information from you (such as your payment card number, expiration date or security code). All payments to us are handled via a third party, Getnextjstemplates
-                                    <Link href="https://getnextjstemplates.com/" className="text-dark_black">(https://getnextjstemplates.com/)</Link>. We refer to their Privacy Statement <Link href="https://getnextjstemplates.com/" className="text-dark_black">(https://getnextjstemplates.com/)</Link>.
+                                    We may also collect technical data such as IP addresses, browser type, device information, and usage patterns using cookies or analytics tools to improve our website and services.
                                 </p>
-
                             </div>
+
                             <div className="my-6">
-                                <h4 className="font-semibold">Personal information you provide to us</h4>
+                                <h4 className="font-semibold">How We Use Your Information</h4>
                                 <p className="mt-6 text-opacity-60">
-                                    While using our Services, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you. For example, we collect information when you create an account, request customer support or otherwise communicate with us. The types of information we may collect include basic user information (such as your name, email address, social media avatar, telephone number and photograph), company information and any other information you choose to provide.
-                                </p>
-                                <p className="mt-6 text-opacity-60">
-                                    We will not collect financial information from you (such as your payment card number, expiration date or security code). All payments to us are handled via a getnextjstemplates{" "}
-                                    <Link href="https://www.paddle.com/" className="text-dark_black">(https://getnextjstemplates.com)</Link>. We refer to their Privacy Statement <Link href="https://www.paddle.com/" className="text-dark_black">https://getnextjstemplates.com/</Link>.
+                                    Your information is used to provide and improve our services, communicate with you, respond to inquiries, and analyze usage for better user experience. We do not sell or rent your personal data to third parties.
                                 </p>
                             </div>
+
+                            <div className="my-6">
+                                <h4 className="font-semibold">Data Security</h4>
+                                <p className="mt-6 text-opacity-60">
+                                    We implement standard security measures to protect your data, but no method of transmission over the Internet is 100% secure. We recommend users also take precautions when sharing information online.
+                                </p>
+                            </div>
+
+                            <div className="my-6">
+                                <h4 className="font-semibold">Contact Us</h4>
+                                <p className="mt-6 text-opacity-60">
+                                    If you have any questions about this Privacy Policy or your personal data, please contact us at <strong>contact@nasmaklabs.com</strong>.
+                                </p>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
-        </section >
+        </section>
     );
 };

@@ -10,8 +10,7 @@ function CustomerStories() {
               <h2>
                 What our satisfied customers are saying
                 <span className='instrument-font italic font-normal dark:text-white/70'>
-                  {' '}
-                  about us
+                  {' '}about Nasmak Labs
                 </span>
               </h2>
             </div>
@@ -23,12 +22,12 @@ function CustomerStories() {
                   </span>
                   <div className='flex flex-col gap-6 '>
                     <h4 className='text-white'>
-                      “Awake’s expertise transformed my vision into success!”
+                      “Nasmak Labs turned our idea into a fully functional product that exceeded our expectations.”
                     </h4>
                     <div className='flex flex-col gap-1'>
-                      <p className='text-white font-medium'>Kabir Shah</p>
+                      <p className='text-white font-medium'>Areeba Khan</p>
                       <p className='text-white/60 text-sm font-medium'>
-                        Founder of Chipsland
+                        CEO, CloudWare Solutions
                       </p>
                     </div>
                   </div>
@@ -41,10 +40,10 @@ function CustomerStories() {
                   </div>
                   <div className='flex flex-col gap-1'>
                     <h2 className='text-7xl font-medium dark:text-dark_black'>
-                      91%
+                      93%
                     </h2>
                     <h4 className='dark:text-dark_black'>
-                      Clients recommend our design services.”
+                      Clients return for more projects after working with us.
                     </h4>
                   </div>
                 </div>
@@ -56,13 +55,12 @@ function CustomerStories() {
                       Customer stories
                     </span>
                     <h4 className='text-white'>
-                      Their creativity and attention to detail transformed our
-                      brand completely!
+                      Their dedication, clarity, and passion for quality really made them stand out.
                     </h4>
                     <div>
                       <Image
                         src='/images/home/customerStories/creativity_img.jpg'
-                        alt='image'
+                        alt='Satisfied client'
                         width={344}
                         height={220}
                         className='w-full h-52'
@@ -77,15 +75,13 @@ function CustomerStories() {
                       Customer stories
                     </span>
                     <h2 className='text-2xl lg:text-5xl'>
-                      “Awake Design Agency brought our ideas to life with
-                      exceptional creativity and precision, exceeding
-                      expectations.”
+                      “Nasmak Labs helped us scale our tech startup with precision, professionalism, and a collaborative approach.”
                     </h2>
                   </div>
                   <div className='flex flex-col gap-1'>
-                    <p className='font-medium'>Kabir Shah</p>
+                    <p className='font-medium'>Bilal Haider</p>
                     <p className='text-dark_black/60 dark:text-white/60 text-sm font-medium'>
-                      Founder of Chipsland
+                      CTO, VentureX
                     </p>
                   </div>
                 </div>

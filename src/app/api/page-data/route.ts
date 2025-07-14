@@ -211,36 +211,37 @@ const startupPlanList: startupPlan[] = [
 
 const faqList: faq[] = [
   {
-    faq_que: 'What services does Awake Agency offer?',
+    faq_que: 'What services does Nasmak Labs offer?',
     faq_ans:
-      'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.',
+      'We specialize in full-stack development, mobile applications, UI/UX design, and custom software solutions. Our services are tailored to startups, businesses, and enterprises seeking scalable digital products.',
   },
   {
     faq_que: 'How long does a typical project take?',
     faq_ans:
-      'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.',
+      'The timeline varies based on project complexity. A standard website or MVP can take 3 to 6 weeks, while larger platforms may require several months. We always provide an estimated timeline after project assessment.',
   },
   {
-    faq_que: 'How is pricing structured at Awake Agency?',
+    faq_que: 'How is pricing structured at Nasmak Labs?',
     faq_ans:
-      'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.',
+      'Our pricing depends on the scope, technology stack, and timeline of your project. We offer both fixed-price packages and hourly engagement models after discussing your specific requirements.',
   },
   {
     faq_que: 'Do you offer ongoing support after project completion?',
     faq_ans:
-      'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.',
+      'Yes, we offer post-launch support including bug fixes, feature enhancements, and maintenance plans to keep your product stable and up-to-date.',
   },
   {
     faq_que: 'How often will I receive updates on my project?',
     faq_ans:
-      'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.',
+      'We maintain clear and regular communication. Clients typically receive updates weekly, or as milestones are completed, via project dashboards, Slack, or email.',
   },
   {
-    faq_que: 'How often will I receive updates on my project?',
+    faq_que: 'Can I request changes once the project is in progress?',
     faq_ans:
-      'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.',
+      'Absolutely. We follow an agile development process allowing flexibility. Any new features or changes are added to the backlog, estimated, and scheduled based on priority.',
   },
-]
+];
+
 
 const achievementsList: achievements[] = [
   {

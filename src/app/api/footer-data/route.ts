@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 const footerData = {
     brand: {
         name: "Nasmak Labs",
-        tagline: "we are providing the best services for your business",
+        tagline: "Your trusted partner in digital innovation.",
         socialLinks: [
             {
                 icon: "/images/home/footerSocialIcon/twitter.svg",
@@ -13,7 +13,7 @@ const footerData = {
             {
                 icon: "/images/home/footerSocialIcon/linkedin.svg",
                 dark_icon: "/images/home/footerSocialIcon/linkedin_dark.svg",
-                link: "https://linkedin.com/in"
+                link: "https://linkedin.com/company/nasmak"
             },
             {
                 icon: "/images/home/footerSocialIcon/dribble.svg",
@@ -34,23 +34,23 @@ const footerData = {
             { name: "About us", url: "/#aboutus" },
             { name: "Work", url: "/#work" },
             { name: "Services", url: "/#services" },
-            { name: "Pricing", url: "/#pricing" }
+            // { name: "Pricing", url: "/#pricing" }
         ]
     },
     otherPages: {
         name: "Other Pages",
         links: [
-            { name: "Error 404", url: "/not-found" },
+            // { name: "Error 404", url: "/not-found" },
             { name: "Terms & Conditions", url: "/terms-and-conditions" },
             { name: "Privacy Policy", url: "/privacy-policy" },
-            { name: "Documentation", url: "/documentation" }
+            // { name: "Documentation", url: "/documentation" }
         ]
     },
     contactDetails: {
         name:"Contact Details",
-        address: "81 Rivington Street London EC2A 3AY",
-        email: "hello@awake.agency",
-        phone: "0105 192 3556"
+        address: "Okara | Lahore | Pakistan",
+        email: "nasmaklabs@gmail.com",
+        phone: "+923217098094"
     },
     copyright: `©${new Date().getFullYear()} Nasmak Labs. All rights reserved.`,
 };
