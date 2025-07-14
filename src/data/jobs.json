@@ -1,0 +1,122 @@
+[
+  {
+    "id": "frontend-developer",
+    "title": "Frontend Developer",
+    "description": "We are looking for a talented Frontend Developer to join our team. You will be responsible for building modern, responsive web applications using React, Next.js, and TypeScript.",
+    "location": "Remote",
+    "type": "Full-time",
+    "requirements": [
+      "3+ years of experience with React and TypeScript",
+      "Experience with Next.js and modern CSS frameworks",
+      "Strong understanding of responsive design principles",
+      "Experience with Git and version control",
+      "Excellent problem-solving skills"
+    ],
+    "responsibilities": [
+      "Develop and maintain web applications using React and Next.js",
+      "Collaborate with designers to implement pixel-perfect UI/UX",
+      "Optimize applications for maximum speed and scalability",
+      "Write clean, maintainable, and well-documented code",
+      "Participate in code reviews and team meetings"
+    ],
+    "salary": "$70,000 - $90,000",
+    "postedDate": "2025-01-10",
+    "applicationDeadline": "2025-02-15"
+  },
+  {
+    "id": "ui-ux-designer",
+    "title": "UI/UX Designer",
+    "description": "Join our design team to create intuitive and beautiful user experiences. We're looking for a creative designer who can translate complex requirements into simple, elegant designs.",
+    "location": "Remote",
+    "type": "Full-time",
+    "requirements": [
+      "3+ years of experience in UI/UX design",
+      "Proficiency in Figma, Adobe Creative Suite",
+      "Strong portfolio demonstrating design thinking",
+      "Experience with design systems and component libraries",
+      "Understanding of frontend development constraints"
+    ],
+    "responsibilities": [
+      "Design user interfaces for web and mobile applications",
+      "Create wireframes, prototypes, and high-fidelity designs",
+      "Conduct user research and usability testing",
+      "Collaborate with developers to ensure design implementation",
+      "Maintain and evolve design systems"
+    ],
+    "salary": "$65,000 - $85,000",
+    "postedDate": "2025-01-08",
+    "applicationDeadline": "2025-02-20"
+  },
+  {
+    "id": "backend-developer",
+    "title": "Backend Developer",
+    "description": "We need a skilled Backend Developer to build robust server-side applications and APIs. You'll work with modern technologies to create scalable and secure backend systems.",
+    "location": "Remote",
+    "type": "Full-time",
+    "requirements": [
+      "4+ years of experience with Node.js or Python",
+      "Experience with database design (PostgreSQL, MongoDB)",
+      "Knowledge of REST APIs and GraphQL",
+      "Experience with cloud platforms (AWS, GCP, Azure)",
+      "Understanding of security best practices"
+    ],
+    "responsibilities": [
+      "Develop and maintain server-side applications and APIs",
+      "Design and optimize database schemas",
+      "Implement security measures and authentication systems",
+      "Monitor application performance and troubleshoot issues",
+      "Collaborate with frontend team for seamless integration"
+    ],
+    "salary": "$75,000 - $95,000",
+    "postedDate": "2025-01-05",
+    "applicationDeadline": "2025-02-10"
+  },
+  {
+    "id": "marketing-intern",
+    "title": "Digital Marketing Intern",
+    "description": "An exciting opportunity for a marketing student or recent graduate to gain hands-on experience in digital marketing, content creation, and social media management.",
+    "location": "Remote",
+    "type": "Internship",
+    "requirements": [
+      "Currently pursuing or recently completed a degree in Marketing, Communications, or related field",
+      "Basic understanding of social media platforms",
+      "Strong written communication skills",
+      "Creative mindset with attention to detail",
+      "Eager to learn and take on new challenges"
+    ],
+    "responsibilities": [
+      "Assist in creating content for social media platforms",
+      "Help with email marketing campaigns",
+      "Conduct market research and competitor analysis",
+      "Support with SEO and content optimization",
+      "Assist in planning and executing marketing events"
+    ],
+    "salary": "$20 - $25 per hour",
+    "postedDate": "2025-01-12",
+    "applicationDeadline": "2025-02-25"
+  },
+  {
+    "id": "project-manager",
+    "title": "Project Manager",
+    "description": "Lead cross-functional teams to deliver high-quality projects on time and within budget. We're looking for an experienced project manager who thrives in a fast-paced environment.",
+    "location": "Hybrid",
+    "type": "Full-time",
+    "requirements": [
+      "5+ years of project management experience",
+      "PMP or Agile certification preferred",
+      "Experience managing software development projects",
+      "Excellent communication and leadership skills",
+      "Proficiency in project management tools (Jira, Asana, etc.)"
+    ],
+    "responsibilities": [
+      "Plan, execute, and monitor project timelines and deliverables",
+      "Coordinate between different teams and stakeholders",
+      "Manage project budgets and resource allocation",
+      "Identify risks and develop mitigation strategies",
+      "Ensure quality standards and best practices are followed"
+    ],
+    "salary": "$80,000 - $100,000",
+    "postedDate": "2025-01-06",
+    "applicationDeadline": "2025-02-12"
+  }
+]

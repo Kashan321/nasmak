@@ -2,13 +2,13 @@
 import { Icon } from '@iconify/react/dist/iconify.js'
 import Link from 'next/link'
 import { useState } from 'react'
+import toast from 'react-hot-toast'
 
 function ContactForm() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     interest: 'design & branding',
-    budget: '',
     message: '',
   })
   const [submitted, setSubmitted] = useState(false)
@@ -22,38 +22,47 @@ function ContactForm() {
   }
 
   const reset = () => {
-    formData.name = ''
-    formData.email = ''
-    formData.interest = 'design & branding'
-    formData.budget = ''
-    formData.message = ''
+    setFormData({
+      name: '',
+      email: '',
+      interest: 'design & branding',
+      message: '',
+    })
   }
 
   const handleSubmit = async (e: any) => {
     e.preventDefault()
     setLoader(true)
 
-    fetch('https://formsubmit.co/ajax/bhainirav772@gmail.com', {
-      method: 'POST',
-      headers: { 'Content-type': 'application/json' },
-      body: JSON.stringify({
-        name: formData.name,
-        email: formData.email,
-        interest: formData.interest,
-        budget: formData.budget,
-        message: formData.message,
-      }),
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        console.log(data)
+    try {
+      const submitData = new FormData();
+      submitData.append('type', 'contact');
+      submitData.append('name', formData.name);
+      submitData.append('email', formData.email);
+      submitData.append('subject', formData.interest);
+      submitData.append('message', formData.message);
 
-        setSubmitted(data.success)
-        reset()
-      })
-      .catch((error) => {
-        console.log(error.message)
-      })
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        body: submitData,
+      });
+
+      const result = await response.json();
+
+      if (response.ok) {
+        setSubmitted(true);
+        reset();
+        toast.success('Message sent successfully!');
+      } else {
+        console.error('Error:', result.message);
+        toast.error(result.message || 'Failed to send message');
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      toast.error('An error occurred. Please try again.');
+    } finally {
+      setLoader(false);
+    }
   }
 
   return (
@@ -162,21 +171,13 @@ function ContactForm() {
                       <option value='design & branding'>
                         Design & Branding
                       </option>
-                      <option value='Ecommerce'>Ecommerce</option>
-                      <option value='Specialist'>Specialist</option>
-                    </select>
-                  </div>
-                  <div className='w-full'>
-                    <label htmlFor='budget'>Project budget</label>
-                    <select
-                      className='w-full mt-2 text-base px-4 rounded-full py-2.5 border transition-all duration-500 dark:text-white border-solid dark:border-white/20 focus:outline-0 dark:bg-black/40'
-                      name='budget'
-                      id='budget'
-                      value={formData.budget}
-                      onChange={handleChange}>
-                      <option value=''>Select your budget</option>
-                      <option value='$10000'>$10,000</option>
-                      <option value='$50500'>$50,500</option>
+                      <option value='web development'>Web Development</option>
+                      <option value='mobile app development'>Mobile App Development</option>
+                      <option value='ui/ux design'>UI/UX Design</option>
+                      <option value='digital marketing'>Digital Marketing</option>
+                      <option value='ecommerce'>Ecommerce</option>
+                      <option value='consulting'>Consulting</option>
+                      <option value='other'>Other</option>
                     </select>
                   </div>
                 </div>
