@@ -118,5 +118,23 @@
     "salary": "$80,000 - $100,000",
     "postedDate": "2025-01-06",
     "applicationDeadline": "2025-02-12"
+  },
+   {
+    "id": "internship-mern",
+    "title": "Mern Stack Internship",
+    "description": "Mern Internship.",
+    "location": "Hybrid",
+    "type": "Internship",
+    "requirements": [
+      "0-6month experience in MERN STACK",
+      "Proficiency in project management tools (Jira, Asana, etc.)"
+    ],
+    "responsibilities": [
+      "Identify risks and develop mitigation strategies",
+      "Ensure quality standards and best practices are followed"
+    ],
+    "salary": "Unpaid",
+    "postedDate": "2025-01-06",
+    "applicationDeadline": "2025-02-12"
   }
 ]
